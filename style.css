@@ -1,0 +1,64 @@
+body {
+  background-image: url(https://w-dog.ru/wallpapers/16/0/333626997669300/fentezi-art-fantastika-more-volny-ford-korabl-parusnik-skaly-rify-staya-ptic-burya-shtorm-molniya.jpg);
+  background-size: inherit;
+}
+.container {
+  padding-top: 15%;
+  width: 400px;
+  margin: auto;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
+h1 {
+  text-align: center;
+  color: rgb(192, 204, 228);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 15px;
+}
+.sub {
+  text-align: center;
+  margin-bottom: 50px;
+  color: rgb(178, 186, 199);
+  font-size: 16px;
+  margin-top: 0;
+}
+input {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+}
+button {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 13px 40px;
+  cursor: pointer;
+  background-color: rgb(14, 76, 192);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.5s;
+  margin-bottom: 20px;
+}
+button:hover {
+  content: "";
+  background-color: rgb(11, 50, 122);
+}
+p {
+  text-align: center;
+  font-size: 14px;
+}
