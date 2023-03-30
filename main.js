@@ -2,7 +2,7 @@ let number = Math.floor(15 * Math.random()) + 1; // случайное числ�
 console.log(number)
 
 // ограничить кол-во попыток до 3х
-let count = 2;
+let count = 3;
 
 document.getElementById('check').onclick = function () {
   if (count > 0) {  // если попыток больше нуля, то выполняется следующее 
