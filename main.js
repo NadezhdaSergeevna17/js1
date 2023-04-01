@@ -19,8 +19,9 @@ document.getElementById('check').onclick = function () {
     else if (usernum < number) {
       out.innerHTML = 'Слишком мало!';
     }
-    document.getElementById('count').innerHTML = 'Осталось попыток ' + count; // выводим сколько осталось попыток
     count = count - 1; // с каждой попыткой отнимать 1
+    document.getElementById('count').innerHTML = 'Осталось попыток ' + count; // выводим сколько осталось попыток
+
   }
   else {
     alert('Кончились попытки, вы проиграли');
