@@ -1,4 +1,4 @@
-let number = Math.floor(15 * Math.random()) + 1; // случайное число от 1 до 15
+let number = Math.floor(3 * Math.random()) + 1; // случайное число от 1 до 15
 console.log(number)
 
 // ограничить кол-во попыток до 3х
@@ -11,7 +11,7 @@ document.getElementById('check').onclick = function () {
     let out = document.getElementById('out');
 
     if (usernum == number) {
-      out.innerHTML = 'Мои поздравления, вы угадали!!!';
+      out.innerHTML = 'Ты угаладала! Поздравляю! А это значит, что ты самая милая писька на свете!!!';
     }
     else if (usernum > number) {
       out.innerHTML = 'Слишком много!';
